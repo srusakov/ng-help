@@ -1,0 +1,43 @@
+
+.app-help-overlay {
+  max-width: 600vw;
+  position: static;
+  width: 600px;
+  max-height: 100vh;
+  height: 100%;
+  .mat-dialog-container {
+    padding: 20px 0 20px 20px;
+  }
+}
+
+.app-help-caption {
+  height: 40px;
+  margin-bottom: 20px;
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.app-help-content {
+  overflow-y: auto;
+
+  p {
+    margin-bottom: 0.6em;
+  }
+  ul {
+    margin: 8px 20px 20px 38px;
+    list-style-type: disc;
+
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+  blockquote {
+    padding-left: 40px;
+  }
+
+  h4 {
+    font-weight: bold;
+    margin-top: 32px;
+  }
+}
